@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
+
 static const aimee_module_stage_t stages[] = {
    {7681u, 1u},
 };
@@ -20,7 +21,6 @@ int main(int argc, char **argv)
        .principal_ref = 14u,
        .stages = stages,
        .stage_count = sizeof stages / sizeof stages[0],
-       /* Replaced by the repository's owned handler during semantic cutover. */
        .handler = NULL,
    };
    return aimee_module_process_run(&config);
