@@ -4,7 +4,7 @@ This is the independent `skills` source-ownership repository.
 
 It builds `aimee-module-skills` as a separate process for the
 server bus. Its generated grant serves exactly the
-declared stage event kinds. The boundary returns typed `capability_absent` until its repository-owned handler is ported; it never echoes a request or reports false success.
+declared stage event kinds. Its repository-owned handler implements the declared stage contract.
 
 The daemon admits the process only when its installed absolute executable path,
 UID, principal class, principal reference, and event-kind grants match the

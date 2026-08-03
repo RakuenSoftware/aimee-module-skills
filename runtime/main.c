@@ -2,6 +2,10 @@
 
 #include <stdio.h>
 
+extern aimee_module_status_t aimee_module_handler(
+    const aimee_module_invocation_t *, const uint8_t *, uint32_t, uint8_t *, uint32_t,
+    uint32_t *, void *);
+
 
 static const aimee_module_stage_t stages[] = {
    {7681u, 1u},
@@ -21,7 +25,7 @@ int main(int argc, char **argv)
        .principal_ref = 14u,
        .stages = stages,
        .stage_count = sizeof stages / sizeof stages[0],
-       .handler = NULL,
+       .handler = aimee_module_handler,
    };
    return aimee_module_process_run(&config);
 }

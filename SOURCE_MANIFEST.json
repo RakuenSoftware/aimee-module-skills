@@ -15,16 +15,18 @@
       "event_kind": 7681
     }
   ],
-  "source_sha256": "f5e48d20e9ca6b9dc3b84639735b2e4ee595ee9cab925ecc2ccb4bb0d9c85ce8",
+  "source_sha256": "f4f507ebeba614a7b9ff8c6ec9cbb3b5be43d68fc61251054ad3b4e28c65213a",
   "owned_files": [
     "src/modules/skills/module.yaml",
     "src/modules/skills/skill.c",
     "src/modules/skills/skill_curator.c",
     "src/modules/skills/skill_review.c",
     "src/modules/skills/skill_rollback.c",
+    "src/modules/skills/module_adapter.c",
     "src/modules/skills/include/aimee/skills/skill.h",
     "src/modules/skills/include/aimee/skills/skill_curator.h",
     "src/modules/skills/include/aimee/skills/skill_review.h",
+    "src/modules/skills/include/aimee/skills/module_api.h",
     "src/tests/test_skill.c",
     "src/tests/test_skill_review.c",
     "docs/modules/skills.md"
